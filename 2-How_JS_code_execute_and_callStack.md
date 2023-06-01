@@ -21,19 +21,19 @@ var square4 = square (4);
 - The output of first face looks like this:-
 
 <table>
-<tr>
-<td> Memory creation </td> <td> Code Execution </td>
-</tr>
-<tr>
-<td> 
-`
-  n: undefined
-  square: {...}
-  Square2: undefined
-  Square 4: undefined
-`
-</td>
-
-</tr>
-
+  <tr>
+    <td> Memory creation </td>
+    <td> Code Execution </td>
+  </tr>
+  <tr>
+    <td> 
+    ```javascript
+      n: undefined
+      square: {...}
+      Square2: undefined
+      Square 4: undefined
+    ```
+    </td>
+    <td></td>
+  </tr>
 </table>
