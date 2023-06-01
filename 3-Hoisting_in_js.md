@@ -1,4 +1,4 @@
-# Hoisting in JS
+# Hoisting in JavaScript
 
 - Let's see the magic of JavaScript, observe the below code :-
 
