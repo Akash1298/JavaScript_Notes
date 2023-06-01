@@ -34,6 +34,8 @@ var square4 = square (4);
 
 - Now when we move to the next line again function is invoked, again a brand new execution context is created and same will be repeated.
 
+<img width="240" alt="image" src="https://github.com/Akash1298/JavaScript_Notes/assets/65884746/d87ee857-23d8-4ccd-8ae0-6e64cb3d3b22">
+
 ### Additional Points
 
 - JavaScript handles everything to manage this execution context creation and deletion with the help of CALL STACK.
