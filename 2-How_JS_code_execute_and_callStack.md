@@ -23,12 +23,7 @@ var square4 = square (4);
 | Memory creation | Code Execution |
 | --------------- | -------------- |
 
-| ```javascript
-n: undefined
+| `n: undefined
 square: {...}
 Square2: undefined
-Square 4: undefined
-
-```| |
-
-```
+Square 4: undefined`| |
