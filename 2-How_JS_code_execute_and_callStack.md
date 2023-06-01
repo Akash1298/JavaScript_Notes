@@ -20,12 +20,12 @@ var square4 = square (4);
 - Undefined is like a placeholder in JS, a special keyword in JS.
 - The output of first face looks like this:-
 
-| Memory creation | Code Execution |
-| --------------- | -------------- |
-|
 ```javascript
+// Memory creation
+
 n: undefined
 square: {...}
 Square2: undefined
 Square 4: undefined
-```| |
+
+```
