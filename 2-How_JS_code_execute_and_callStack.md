@@ -20,15 +20,7 @@ var square4 = square (4);
 - Undefined is like a placeholder in JS, a special keyword in JS.
 - The output of first face looks like this:-
 
-```javascript
-// Memory creation
-
-n: undefined
-square: {...}
-Square2: undefined
-Square 4: undefined
-
-```
+<img width="180" alt="memory-alloction" src="https://github.com/Akash1298/JavaScript_Notes/assets/65884746/fd0b0833-4596-42e5-a6c1-611545c75029">
 
 ### Now, Code execution phase will comes into the scene and run the code line by line.
 
@@ -37,3 +29,6 @@ Square 4: undefined
 - Now, in line 6 the function is invoked, function in JS is like a mini program and whenever a function is invoked a new execution context is created for that function.
 - Then in code execution phase the value of i.e. 2 is passed to num and in next line the value of ans is calculated and replaced in stored memory allocation. When we move to next line return tells this function that you are done with your work and return control where the function was invoked.
 - Now the whole execution context of that function will be deleted.
+
+<img width="180" alt="code-executuion" src="https://github.com/Akash1298/JavaScript_Notes/assets/65884746/f73bbd15-99bc-4054-b25f-c14bfc940498">
+
