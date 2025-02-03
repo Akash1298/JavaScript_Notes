@@ -51,7 +51,7 @@ The closure ensures that the callback remembers i=1 even after waiting for 3s.
    - To avoid this, we can use `let` instead of `var` as let has Block scope. For each iteration, the `i` is a new variable altogether(new copy of i). Every time setTimeout is run, the inside function forms a closure with new variable i.
    - If the interviewer asks us a solution for using `var`?
 
-    ```js
+```js
     function x() {
       for (var i = 1; i <= 5; i++) {
         function close(i) {
@@ -65,4 +65,4 @@ The closure ensures that the callback remembers i=1 even after waiting for 3s.
       console.log("Namaste Javascript");
     }
     x();
-    ```
+```
