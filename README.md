@@ -8,13 +8,22 @@ Namaste JavaScript is a well-structured series that explains core JavaScript con
 ## Topics Covered
 Each episode has a dedicated markdown file with summarized notes, examples, and explanations:
 
-1. **Episode 1: Call Stack & Execution Context**
-2. **Episode 2: Hoisting in JavaScript**
-3. **Episode 3: Functions & Variable Environments**
-4. **Episode 4: The Scope Chain & Lexical Environment**
-5. **Episode 5: Closures in JavaScript**
-6. **Episode 6: Asynchronous JavaScript & Event Loop**
-7. **More episodes to come...**
+1. **Episode 1: How Javascript works**
+2. **Episode 2: How Javascript code executes & Callstack**
+3. **Episode 3: Hoisting in JavaScript**
+4. **Episode 4: How Functions works & Variable Environments**
+5. **Episode 5: Shortest program in Javascript**
+6. **Episode 6: Undefined vs Not-Defined** 
+7. **Episode 7: The Scope Chain & Lexical Environment**
+8. **Episode 8: Let & const in Javascript**
+9. **Episode 9: Block Scope & Shadowing**
+10. **Episode 10: Closures in JavaScript**
+11. **Episode 11: Closures + setTimeout JavaScript**
+12. **Episode 12: JS Interview ft.Closures**
+11. **Episode 13: First class function in JavaScript**
+12. 
+ **More episodes to come...**
+
 
 ## How to Use
 
