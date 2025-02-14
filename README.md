@@ -9,23 +9,24 @@ Namaste JavaScript is a well-structured series that explains core JavaScript con
 Each episode has a dedicated markdown file with summarized notes, examples, and explanations:
 
 1. [**Episode 1: How Javascript works**](https://github.com/Akash1298/JavaScript_Notes/blob/master/01-How_JavaScript_works.md)
-2. **Episode 2: How Javascript code executes & Callstack**
-3. **Episode 3: Hoisting in JavaScript**
-4. **Episode 4: How Functions works & Variable Environments**
-5. **Episode 5: Shortest program in Javascript**
-6. **Episode 6: Undefined vs Not-Defined** 
-7. **Episode 7: The Scope Chain & Lexical Environment**
-8. **Episode 8: Let & const in Javascript**
-9. **Episode 9: Block Scope & Shadowing**
-10. **Episode 10: Closures in JavaScript**
-11. **Episode 11: Closures + setTimeout JavaScript**
-12. **Episode 12: JS Interview ft.Closures**
-13. **Episode 13: First class function in JavaScript**
-14. **Episode 14: Callback function ft.EventListners**
-15. 
-    
- **More episodes to come...**
-
+2. [**Episode 2: How Javascript code executes & Callstack**](https://github.com/Akash1298/JavaScript_Notes/blob/master/02-How_JS_code_execute_and_callStack.md)
+3. [**Episode 3: Hoisting in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/03-Hoisting_in_js.md)
+4. [**Episode 4: How Functions works & Variable Environments**](https://github.com/Akash1298/JavaScript_Notes/blob/master/04-How_function_works_in_js.md)
+5. [**Episode 5: Shortest program in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/05-Shortest_Program_in_js.md)
+6. [**Episode 6: Undefined vs Not-Defined** ](https://github.com/Akash1298/JavaScript_Notes/blob/master/06-Undefined_vs_not-defined.md)
+7. [**Episode 7: The Scope Chain & Lexical Environment**](https://github.com/Akash1298/JavaScript_Notes/blob/master/07-The_scope_chain.md)
+8. [**Episode 8: Let & const in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/08-Let_const_in_js.md)
+9. [**Episode 9: Block Scope & Shadowing**](https://github.com/Akash1298/JavaScript_Notes/blob/master/09-Block_scope_%26_shadowing.md)
+10. [**Episode 10: Closures in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/10-Closures.md)
+11. [**Episode 11: Closures + setTimeout JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/11-setTimeout%2BClosure.md)
+12. [**Episode 12: JS Interview ft.Closures**](https://github.com/Akash1298/JavaScript_Notes/blob/master/12-JS-Interview-ft.Closure.md)
+13. [**Episode 13: First class function in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/13.First-class-functions.md)
+14. [**Episode 14: Callback function ft.EventListners**](https://github.com/Akash1298/JavaScript_Notes/blob/master/14-Callback-function-ft.Event-Listners.md)
+15. **Episode 15: Asynchronous Javascript & EVENT LOOP**
+16. **Episode 16: JS Engine Exposed, Google's V8 Architecture**
+17. **Episode 17: Trust issues with setTimeout**
+18. **Episode 18: Higher Order Functions**
+19. **Epidose 19: map, filter & reduce**
 
 ## How to Use
 
