@@ -8,7 +8,7 @@ Namaste JavaScript is a well-structured series that explains core JavaScript con
 ## Topics Covered
 Each episode has a dedicated markdown file with summarized notes, examples, and explanations:
 
-1. **Episode 1: How Javascript works**
+1. [**Episode 1: How Javascript works**](https://github.com/Akash1298/JavaScript_Notes/blob/master/01-How_JavaScript_works.md)
 2. **Episode 2: How Javascript code executes & Callstack**
 3. **Episode 3: Hoisting in JavaScript**
 4. **Episode 4: How Functions works & Variable Environments**
@@ -20,8 +20,10 @@ Each episode has a dedicated markdown file with summarized notes, examples, and 
 10. **Episode 10: Closures in JavaScript**
 11. **Episode 11: Closures + setTimeout JavaScript**
 12. **Episode 12: JS Interview ft.Closures**
-11. **Episode 13: First class function in JavaScript**
-12. 
+13. **Episode 13: First class function in JavaScript**
+14. **Episode 14: Callback function ft.EventListners**
+15. 
+    
  **More episodes to come...**
 
 
