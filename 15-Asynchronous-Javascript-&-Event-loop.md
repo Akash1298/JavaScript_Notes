@@ -42,4 +42,7 @@ None of the below are part of Javascript! These are extra superpowers that brows
 - cb() cannot be directly executed. It goes to the callback queue when the timer expires.
 - Event loop checks the callback queue, and see if it has any elements to put into the call stack. It is like a gatekeeper.
 - Once cb() is in the callback queue, the event loop pushes it to the call stack to run. The console API is used, and log is printed
+
+![Event Loop 2 Demo](/assets/JS-15-2.jpg)
+
 <img width="483" alt="{CB16B7EB-A9DB-4A7C-9499-A018A7F4A65C}" src="https://github.com/user-attachments/assets/3dd862fe-f69e-4574-9a17-2455af0f8abf" />
