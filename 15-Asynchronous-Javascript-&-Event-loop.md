@@ -20,7 +20,7 @@ None of the below are part of Javascript! These are extra superpowers that brows
 - This global object is `keyword: window`
 
 - Let's understand the below code with example:
-<img width="482" alt="{BF3D739E-00CD-4B0C-9FA3-8D01B4845258}" src="https://github.com/user-attachments/assets/056570eb-3364-438f-b21f-c31f3c679e38" />
+![Event Loop 1 Demo](assets/JS-15-1.png)
 
   ```js
     console.log("start");
@@ -44,5 +44,3 @@ None of the below are part of Javascript! These are extra superpowers that brows
 - Once cb() is in the callback queue, the event loop pushes it to the call stack to run. The console API is used, and log is printed
 
 ![Event Loop 2 Demo](assets/JS-15-2.png)
-
-<img width="483" alt="{CB16B7EB-A9DB-4A7C-9499-A018A7F4A65C}" src="https://github.com/user-attachments/assets/3dd862fe-f69e-4574-9a17-2455af0f8abf" />
