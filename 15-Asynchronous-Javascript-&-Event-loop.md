@@ -58,3 +58,7 @@ None of the below is part of JavaScript! These are extra superpowers that the br
   ```
 ![Event Loop 2 Demo](assets/JS-15-3.png)
 - Eventloop has just one job: to keep checking the callback queue and if it finds something, push it to the call stack and delete it from the callback queue.
+
+Q: Need for a callback queue?
+
+**Ans**: Suppose user clciks button x6 times. So 6 cb() are put inside the callback queue. Event loop sees if the call stack is empty/has space and whether the callback queue is not empty(6 elements here). Elements of the callback queue are popped off, put in the call stack, executed, and then popped off from the call stack.
