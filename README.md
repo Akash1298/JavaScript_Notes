@@ -22,7 +22,7 @@ Each episode has a dedicated markdown file with summarized notes, examples, and 
 12. [**Episode 12: JS Interview ft.Closures**](https://github.com/Akash1298/JavaScript_Notes/blob/master/12-JS-Interview-ft.Closure.md)
 13. [**Episode 13: First class function in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/13.First-class-functions.md)
 14. [**Episode 14: Callback function ft.EventListners**](https://github.com/Akash1298/JavaScript_Notes/blob/master/14-Callback-function-ft.Event-Listners.md)
-15. **Episode 15: Asynchronous Javascript & EVENT LOOP**
+15. [**Episode 15: Asynchronous Javascript & EVENT LOOP**](https://github.com/Akash1298/JavaScript_Notes/blob/master/15-Asynchronous-Javascript-&-Event-loop.md)
 16. **Episode 16: JS Engine Exposed, Google's V8 Architecture**
 17. **Episode 17: Trust issues with setTimeout**
 18. **Episode 18: Higher Order Functions**
