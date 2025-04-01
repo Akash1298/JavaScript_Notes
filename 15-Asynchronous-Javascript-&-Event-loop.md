@@ -62,3 +62,29 @@ None of the below is part of JavaScript! These are extra superpowers that the br
 Q: Need for a callback queue?
 
 **Ans**: Suppose user clciks button x6 times. So 6 cb() are put inside the callback queue. Event loop sees if the call stack is empty/has space and whether the callback queue is not empty(6 elements here). Elements of the callback queue are popped off, put in the call stack, executed, and then popped off from the call stack.
+
+### Example 3
+```js
+console.log("Start"); // this calls the console web api (through window), which in turn modifies values in the console.
+setTimeout(function cbT() {
+  console.log("CB Timeout");
+}, 5000);
+fetch("https://api.netflix.com").then(function cbF() {
+    console.log("CB Netflix");
+}); // take 2 seconds to bring response
+// millions lines of code
+console.log("End");
+```
+
+Code Explanation:
+* A GEC is created, console log calls webAPI, prints in console.
+* setTimeout will register cbT() in webAPI, then fetch registers cbF into webapi environment along with existing cbT.
+* cbT is waiting for 5000ms to end so that it can be put inside the callback queue. cbF is waiting for data to be returned from Netflix servers gonna take 2 seconds.
+* After this, millions of lines of code are running. By the time millions of lines of code are executed, 5 seconds have passed, and now the timer has expired, and a response from the Netflix server is ready.
+* Data back from cbF ready to be executed gets stored into something called a `Microtask Queue`.
+* Also, after the expiration of the timer, cbT is ready to execute in the `Callback Queue`.
+* Microtask Queue is the same as `Callback Queue`, but it has higher priority. Functions in the `Microtask Queue` are executed earlier than `Callback Queue`.
+* In the console, first Start and End are printed in console. First, cbF goes in the call stack, and "CB Netflix" is printed. cbF popped from the call stack. Next, cbT is removed from the callback Queue, put in the Call Stack, "CB Timeout" is printed, and cbT is removed from the call stack.
+* See image below for more understanding
+
+  ![Event Loop 4 Demo](assets/JS-15-4.png)
