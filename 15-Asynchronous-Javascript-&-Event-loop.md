@@ -88,3 +88,21 @@ Code Explanation:
 * See image below for more understanding
 
   ![Event Loop 4 Demo](assets/JS-15-4.png)
+
+#### What enters the Microtask Queue?
+
+- All the callback functions that come through promises go into the microtask queue.
+- **Mutation Observer**: Keeps on checking whether there is a mutation in the DOM tree, and if there is, then it executes some callback function.
+- Callback functions that come through promises and mutation observer go inside the **Microtask Queue**.
+- All the rest goes inside **Callback Queue, aka. Task Queue**.
+- If the task in the microtask Queue keeps creating new tasks in the queue, the element in the callback queue never gets a chance to be run. This is called **starvation**
+
+### Some Important Questions
+
+1. **When does the event loop actually start? -** Event loop, as the name suggests, is a single-threaded loop that is _almost infinite_. It's always running and doing its job.
+
+2. **Are only asynchronous web api callbacks registered in the web api environment? -** YES, the synchronous callback functions like what we pass inside map, filter, and reduce aren't registered in the Web API environment. It's just those async callback functions that go through all this.
+
+3. **Does the web API environment store only the callback function and push the same callback to the queue/microtask queue? -** Yes, the callback functions are stored, and a reference is scheduled in the queues. Moreover, in the case of event listeners(for example, click handlers), the original callbacks stay in the web API environment forever; that's why it's advised to explicitly remove the listeners when not in use so that the garbage collector does its job.
+
+4. **How does it matter if we delay for setTimeout would be 0ms? Then the callback will move to the queue without any wait? -** No, there are trust issues with setTimeout() 😅. The callback function needs to wait until the Call Stack is empty. So the 0 ms callback might have to wait for 100 ms also if the stack is busy.
