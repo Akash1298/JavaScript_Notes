@@ -47,6 +47,6 @@ function b() {
 
 - Finally, the last `console.log(x)` prints the value of `x` from **GEC**, which is `1`, and then **GEC** is deleted and removed from CallStack.
 
-![image](https://github.com/user-attachments/assets/73f23cf6-a0cf-437e-89fe-08cab2b71d45)
+  ![How function works Demo](assets/JS-4-1.png)
 
 
