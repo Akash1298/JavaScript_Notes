@@ -8,23 +8,23 @@ Namaste JavaScript is a well-structured series that explains core JavaScript con
 ## Topics Covered
 Each episode has a dedicated markdown file with summarized notes, examples, and explanations:
 
-1. [**Episode 1: How Javascript works**](https://github.com/Akash1298/JavaScript_Notes/blob/master/01-How_JavaScript_works.md)
-2. [**Episode 2: How Javascript code executes & Callstack**](https://github.com/Akash1298/JavaScript_Notes/blob/master/02-How_JS_code_execute_and_callStack.md)
-3. [**Episode 3: Hoisting in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/03-Hoisting_in_js.md)
-4. [**Episode 4: How Functions works & Variable Environments**](https://github.com/Akash1298/JavaScript_Notes/blob/master/04-How_function_works_in_js.md)
-5. [**Episode 5: Shortest program in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/05-Shortest_Program_in_js.md)
-6. [**Episode 6: Undefined vs Not-Defined** ](https://github.com/Akash1298/JavaScript_Notes/blob/master/06-Undefined_vs_not-defined.md)
-7. [**Episode 7: The Scope Chain & Lexical Environment**](https://github.com/Akash1298/JavaScript_Notes/blob/master/07-The_scope_chain.md)
-8. [**Episode 8: Let & const in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/08-Let_const_in_js.md)
-9. [**Episode 9: Block Scope & Shadowing**](https://github.com/Akash1298/JavaScript_Notes/blob/master/09-Block_scope_%26_shadowing.md)
+1. [**Episode 1: How Javascript works**](https://github.com/Akash1298/JavaScript_Notes/blob/master/01-How-JavaScript-works.md)
+2. [**Episode 2: How Javascript code executes & Callstack**](https://github.com/Akash1298/JavaScript_Notes/blob/master/02-How-JS-code-execute-and-callStack.md)
+3. [**Episode 3: Hoisting in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/03-Hoisting-in-js.md)
+4. [**Episode 4: How Functions works & Variable Environments**](https://github.com/Akash1298/JavaScript_Notes/blob/master/04-How-function-works-in-js.md)
+5. [**Episode 5: Shortest program in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/05-Shortest-Program-in-js.md)
+6. [**Episode 6: Undefined vs Not-Defined** ](https://github.com/Akash1298/JavaScript_Notes/blob/master/06-Undefined-vs-not-defined.md)
+7. [**Episode 7: The Scope Chain & Lexical Environment**](https://github.com/Akash1298/JavaScript_Notes/blob/master/07-The-scope-chain.md)
+8. [**Episode 8: Let & const in Javascript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/08-Let-const-in-js.md)
+9. [**Episode 9: Block Scope & Shadowing**](https://github.com/Akash1298/JavaScript_Notes/blob/master/09-Block-scope-%26-shadowing.md)
 10. [**Episode 10: Closures in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/10-Closures.md)
 11. [**Episode 11: Closures + setTimeout JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/11-setTimeout%2BClosure.md)
 12. [**Episode 12: JS Interview ft.Closures**](https://github.com/Akash1298/JavaScript_Notes/blob/master/12-JS-Interview-ft.Closure.md)
 13. [**Episode 13: First class function in JavaScript**](https://github.com/Akash1298/JavaScript_Notes/blob/master/13.First-class-functions.md)
 14. [**Episode 14: Callback function ft.EventListners**](https://github.com/Akash1298/JavaScript_Notes/blob/master/14-Callback-function-ft.Event-Listners.md)
 15. [**Episode 15: Asynchronous Javascript & EVENT LOOP**](https://github.com/Akash1298/JavaScript_Notes/blob/master/15-Asynchronous-Javascript-&-Event-loop.md)
-16. [**Episode 16: JS Engine Exposed, Google's V8 Architecture**](https://github.com/Akash1298/JavaScript_Notes/blob/master/16-JS_Engine_Google_V8.md)
-17. **Episode 17: Trust issues with setTimeout**
+16. [**Episode 16: JS Engine Exposed, Google's V8 Architecture**](https://github.com/Akash1298/JavaScript_Notes/blob/master/16-JS-Engine-Google-V8.md)
+17. [**Episode 17: Trust issues with setTimeout**](https://github.com/Akash1298/JavaScript_Notes/blob/master/17-Trust-issues-with-setTimeout.md)
 18. **Episode 18: Higher Order Functions**
 19. **Episode 19: map, filter & reduce**
 
