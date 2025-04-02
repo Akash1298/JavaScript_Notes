@@ -52,6 +52,20 @@ Even though we set a **5-second timer**, the callback actually executes **after 
 **Never block the main thread!** JavaScript runs on a **single call stack**, meaning that long-running tasks can delay other operations, including `setTimeout` callbacks. Always keep your code efficient to avoid unnecessary delays! 🚀
 
 ## Below is an example of blocking the main thread:-
+  ![JS blocking main thread](assets/JS-17-1.png)
 
+- JavaScript ensures that the code inside setTimeout executes only after the specified delay has passed, never before.
 
+- Despite being a single-threaded, synchronous language, JavaScript efficiently runs all code on a single execution thread. It behaves somewhat like an interpreted language, executing quickly in the browser thanks to Just-In-Time (JIT) compilation. Additionally, it provides mechanisms for handling asynchronous operations.
 
+- What if **timeout = 0sec**?
+  ```js
+  console.log("Start");
+  setTimeout(function cb() {
+    console.log("Callback");
+  }, 0);
+  console.log("End");
+  // Even though timer = 0s, the cb() has to go through the queue. Registers calback in webapi's env , moves to callback queue, and execute once callstack is empty.
+  // O/p - Start End Callback
+  // This method of putting timer = 0, can be used to defer a less imp function by a little so the more important function(here printing "End") can take place
+  ```
