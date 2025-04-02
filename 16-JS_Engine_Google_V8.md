@@ -16,6 +16,7 @@
 - Companies use different JS engines and each tries to make theirs the best.
   - V8 of Google has an Interpreter called Ignition, a compiler called Turbo Fan, and a garbage collector called Orinoco
   - V8 architecture:
+
     ![JS Engine Demo](assets/JS-16-2.png)
 
 
