@@ -58,7 +58,7 @@ Even though we set a **5-second timer**, the callback actually executes **after 
 
 - Despite being a single-threaded, synchronous language, JavaScript efficiently runs all code on a single execution thread. It behaves somewhat like an interpreted language, executing quickly in the browser thanks to Just-In-Time (JIT) compilation. Additionally, it provides mechanisms for handling asynchronous operations.
 
-- What if **timeout = 0sec**?
+- if **timeout = 0sec**?
   ```js
   console.log("Start");
   setTimeout(function cb() {
